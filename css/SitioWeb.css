@@ -1,3 +1,7 @@
+.contenedor {
+    box-shadow: 5px 5px 15px gray;
+}
+
 header{/*Estilo de Cabecera*/
     flex-wrap: wrap;
     width: 99%;
