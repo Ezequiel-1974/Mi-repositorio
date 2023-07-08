@@ -75,4 +75,5 @@ a:hover {
   a {
     color: rgb(0, 17, 255);
     text-decoration: none;
+    font-weight: bold;
   }
