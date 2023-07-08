@@ -6,6 +6,7 @@ header{/*Estilo de Cabecera*/
     flex-wrap: wrap;
     width: 99%;
     border: solid black;
+    box-shadow: 5px 5px 15px rgb(45, 45, 45);
     background-color: rgb(181, 91, 58);
     display: flex;
     align-items: center;
