@@ -23,7 +23,7 @@ body{/*Estilo del cuerpo del sitio*/
 }
 
 .Banners img{/*Estilo de las imagenes de los Banners*/
-    min-width: 300px;
+    min-width: 150px;
     margin-bottom: 0px;
     display: flex;
     width: 150px;
