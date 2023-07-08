@@ -6,11 +6,12 @@ header{/*Estilo de Cabecera*/
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: 'Ysabeau SC', sans-serif;
 }
 
 body{/*Estilo del cuerpo del sitio*/
     background-color: bisque;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Dancing Script', cursive;
 }
 
 .Banners{/*Estilo de los banners*/
