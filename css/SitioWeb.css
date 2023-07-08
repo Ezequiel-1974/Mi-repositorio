@@ -16,7 +16,7 @@ body{/*Estilo del cuerpo del sitio*/
 .Banners{/*Estilo de los banners*/
     flex: 1;
     min-width: 300px;
-    width: 14%;
+    width: 20%;
     height: 100px;
     justify-content: initial;
     
