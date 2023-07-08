@@ -31,6 +31,7 @@ body{/*Estilo del cuerpo del sitio*/
     background-color: black;
     justify-content: initial;
     border-radius: 70%/60%;
+    float: inline-start;
 }
 
 .contenedor2{/*Estilo del logo del sitio*/
