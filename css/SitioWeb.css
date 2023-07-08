@@ -1,5 +1,9 @@
-.contenedor {
-    box-shadow: 5px 5px 15px rgb(45, 45, 45);
+.a {
+    .link-body-emphasis {
+        color: RGBA(var(--bs-emphasis-color-rgb),var(--bs-link-opacity,1))!important;
+        -webkit-text-decoration-color: RGBA(var(--bs-emphasis-color-rgb),var(--bs-link-underline-opacity,1))!important;
+        text-decoration-color: RGBA(var(--bs-emphasis-color-rgb),var(--bs-link-underline-opacity,1))!important;
+    }
 }
 
 header{/*Estilo de Cabecera*/
