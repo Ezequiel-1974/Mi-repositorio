@@ -1,6 +1,7 @@
-.contenedor {
-    box-shadow: 5px 5px 15px rgb(45, 45, 45);
-}
+a.hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+  }
 
 header{/*Estilo de Cabecera*/
     flex-wrap: wrap;
