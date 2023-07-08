@@ -1,13 +1,3 @@
-a.hover {
-    color: rgb(0, 0, 0);
-    text-decoration: underline;
-  }
-
-  a {
-    color: rgb(0, 17, 255);
-    text-decoration: none;
-  }
-
 header{/*Estilo de Cabecera*/
     flex-wrap: wrap;
     width: 99%;
@@ -67,3 +57,13 @@ nav{/*Estilo del menu del sitio*/
     justify-content: center;
     align-items: center;
 }
+
+a.hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+  }
+
+  a {
+    color: rgb(0, 17, 255);
+    text-decoration: none;
+  }
