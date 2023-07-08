@@ -1,0 +1,67 @@
+header{
+    flex-wrap: wrap;
+    width: 99%;
+    border: solid black;
+    background-color: rgb(181, 91, 58);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body{
+    background-color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Banners{
+    flex: 1;
+    min-width: 300px;
+    width: 14%;
+    height: 100px;
+    justify-content: initial;
+    position: absolute;
+    
+}
+
+.Banners img{
+    flex: 2;
+    min-width: 300px;
+    margin-bottom: 0px;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    justify-content: initial;
+}
+
+.contenedor2{
+    flex: 2;
+    min-width: 300px;
+    padding: 25px;
+    background-color: rgb(181, 91, 58);
+    margin-bottom: 0px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    flex: 2;
+    padding: 25px;
+    background-color: tan ;
+    width: 23%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    flex: 2;
+    min-width: 300px;
+    background-color: burlywood;
+    position: relative;
+    right: 0px;
+}
+
