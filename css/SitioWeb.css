@@ -67,7 +67,7 @@ table{/*Estilo de la tabla de la comisión directiva*/
     right: 0px;
 }
 
-a.hover {
+a:hover {
     color: rgb(0, 0, 0);
     text-decoration: underline;
   }
