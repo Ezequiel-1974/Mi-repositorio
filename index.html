@@ -12,7 +12,7 @@
                         <link rel="preconnect" href="https://fonts.googleapis.com">
                             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
                                 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Ysabeau+SC:wght@100&display=swap" rel="stylesheet">
-
+                                    <link rel="stylesheet" href="./Bootstrap/css/bootstrap.min.css">
 </head>
 <body>
 
@@ -26,9 +26,10 @@
         <img src="./Fondos-de-pantalla/CAHornero.png" id="Horneros" >
     </div>
 
+    <nav>
     <ul class="nav"> <!--Menu del sitio-->
         <li class="nav-item">
-            <a class="hover" href="./SitioWeb.html">Inicio</a>  
+            <a class="hover" href="./index.html">Inicio</a>  
         </li>
         <li class="nav-item">
             <a class="hover" href="./Pages/Acerca-De.html">Acerca De</a>
@@ -40,68 +41,70 @@
             <a class="hover" href="./Pages/Noticias.html">Noticias</a>
         </li>
       </ul>
+    </nav>  
         </header>    
     </div>
 </div>
+    <main>
+        <h2>Comisión directiva</h2> <!--Tabla de comisión directiva-->
+
+        <ul>
+            <li>Rodolfo Gutierrez</li>
+                <ul>Presidente</ul>
+            <li>Josefina Rodriguez</li>
+                <ul>Vicepresindente</ul>
+            <li>Pantaleon Bustamante</li>
+                <ul>Tesorero</ul>
+            <li>Maria Camila Gomez</li>
+                <ul>Secretaria</ul>
+            <li>Stefania Esposito</li>
+                <ul>Vocera</ul>
+            <li>Roberto Navarro</li>
+                <ul>Coodinador general de Deportes</ul>
+        </ul>
+
+        <h2>Los deportes que se practican en el club</h2><!--Tabla de deportes-->
+    <table border="1" cellpadding="10">
+        <tr> 
+            <th>Profesores: <br>
+            Nombre Apellido</th> 
+            <th>Deportes</th>
+            <th>Días</th>
+            <th>Horarios</th>
+        </tr>
+
+        <tr>
+            <td>Antonio Centurion</td>
+            <td>Taekwondo</td>
+            <td>Lunes, miercoles y viernes</td>
+            <td>10:00 a 12:00</td>
+        </tr>
+
+        <tr>
+            <td>Josefina Martinez</td>
+            <td>Voley</td>
+            <td>Martes, jueves y viernes</td>
+            <td>10:00 a 12:00</td>
+        </tr>
+
+        <tr>
+            <td>Alex Lopez</td>
+            <td>Futbol</td>
+            <td>Lunes, miercoles y viernes</td>
+            <td>10:00 a 12:00</td>
+        </tr>
+
+        <tr>
+            <td>Maria Camila Esposito</td>
+            <td>Natación</td> 
+            <td>Lunes, martes y viernes</td>
+            <td>10:00 a 12:00</td>
+        </tr>
+
+    </table>
+
+</main>    
     
-    <h2>Comisión directiva</h2> <!--Tabla de comisión directiva-->
-
-    <ul>
-        <li>Rodolfo Gutierrez</li>
-            <ul>Presidente</ul>
-        <li>Josefina Rodriguez</li>
-            <ul>Vicepresindente</ul>
-        <li>Pantaleon Bustamante</li>
-            <ul>Tesorero</ul>
-        <li>Maria Camila Gomez</li>
-            <ul>Secretaria</ul>
-        <li>Stefania Esposito</li>
-            <ul>Vocera</ul>
-        <li>Roberto Navarro</li>
-            <ul>Coodinador general de Deportes</ul>
-    </ul>
-
-    <h2>Los deportes que se practican en el club</h2><!--Tabla de deportes-->
-<table border="1" cellpadding="10">
-    <tr> 
-        <th>Profesores: <br>
-        Nombre Apellido</th> 
-        <th>Deportes</th>
-        <th>Días</th>
-        <th>Horarios</th>
-    </tr>
-
-    <tr>
-        <td>Antonio Centurion</td>
-        <td>Taekwondo</td>
-        <td>Lunes, miercoles y viernes</td>
-        <td>10:00 a 12:00</td>
-    </tr>
-
-    <tr>
-        <td>Josefina Martinez</td>
-        <td>Voley</td>
-        <td>Martes, jueves y viernes</td>
-        <td>10:00 a 12:00</td>
-    </tr>
-
-    <tr>
-        <td>Alex Lopez</td>
-        <td>Futbol</td>
-        <td>Lunes, miercoles y viernes</td>
-        <td>10:00 a 12:00</td>
-    </tr>
-
-    <tr>
-        <td>Maria Camila Esposito</td>
-        <td>Natación</td> 
-        <td>Lunes, martes y viernes</td>
-        <td>10:00 a 12:00</td>
-    </tr>
-
-
-</table>
-
 <br>
 
 <footer><!--Pie de página-->
@@ -115,5 +118,6 @@
         <img src="./Fondos-de-pantalla/Adidas.png" class="img-fluid" alt="">
 </div>
 
+<script src="./Bootstrap/js/bootstrap.bundle.js"></script>
 </body>
 </html>
