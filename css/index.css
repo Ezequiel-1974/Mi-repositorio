@@ -59,6 +59,17 @@ nav{/*Estilo del menu del sitio*/
     align-items: center;
 }
 
+main{
+    flex: 2;
+    padding: 25px;
+    background-color: tan ;
+    width: 23%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 table{/*Estilo de la tabla de la comisión directiva*/
     flex: 2;
     min-width: 300px;
