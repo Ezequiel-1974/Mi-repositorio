@@ -11,6 +11,7 @@ header{/*Estilo de Cabecera*/
 }
 
 nav{/*Estilo del menu del sitio*/
+    padding-left: 0%;
     padding: 2px;
     background-color: tan ;
     width: 23%;
@@ -21,11 +22,8 @@ nav{/*Estilo del menu del sitio*/
 }
 
 main{/*Estilo de la información más importante*/
-    flex: 2;
     padding: 25px;
     background-color: tan ;
-    width: 23%;
-    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
