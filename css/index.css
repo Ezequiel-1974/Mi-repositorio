@@ -10,6 +10,36 @@ header{/*Estilo de Cabecera*/
     font-family: 'Ysabeau SC', sans-serif;
 }
 
+nav{/*Estilo del menu del sitio*/
+    flex: 2;
+    padding: 25px;
+    background-color: tan ;
+    width: 23%;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+main{/*Estilo de la información más importante*/
+    flex: 2;
+    padding: 25px;
+    background-color: tan ;
+    width: 23%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{/*Estilo de la tabla de la comisión directiva*/
+    flex: 2;
+    min-width: 300px;
+    background-color: burlywood;
+    position: relative;
+    right: 0px;
+}
+
 body{/*Estilo del cuerpo del sitio*/
     background-color: bisque;
     font-family: 'Dancing Script', cursive;
@@ -48,35 +78,6 @@ body{/*Estilo del cuerpo del sitio*/
     justify-content: center;
 }
 
-nav{/*Estilo del menu del sitio*/
-    flex: 2;
-    padding: 25px;
-    background-color: tan ;
-    width: 23%;
-    height: 50px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-
-main{/*Estilo de la información más importante*/
-    flex: 2;
-    padding: 25px;
-    background-color: tan ;
-    width: 23%;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-table{/*Estilo de la tabla de la comisión directiva*/
-    flex: 2;
-    min-width: 300px;
-    background-color: burlywood;
-    position: relative;
-    right: 0px;
-}
 
 a:hover {
     color: rgb(0, 0, 0);

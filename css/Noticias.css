@@ -10,6 +10,27 @@ header{/*Estilo de Cabecera*/
     font-family: 'Ysabeau SC', sans-serif;
 }
 
+nav{/*Estilo del menu del sitio*/
+    padding: 2px;
+    background-color: tan ;
+    width: 23%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{/*Estilo de la información más importante*/
+    flex: 2;
+    padding: 25px;
+    background-color: tan ;
+    width: 23%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 body{/*Estilo del cuerpo del sitio*/
     background-color: bisque;
     font-family: 'Dancing Script', cursive;
@@ -46,27 +67,6 @@ body{/*Estilo del cuerpo del sitio*/
     height: 100px;
     display: flex;
     justify-content: center;
-}
-
-nav{/*Estilo del menu del sitio*/
-    padding: 2px;
-    background-color: tan ;
-    width: 23%;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-main{/*Estilo de la información más importante*/
-    flex: 2;
-    padding: 25px;
-    background-color: tan ;
-    width: 23%;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 a:hover {
