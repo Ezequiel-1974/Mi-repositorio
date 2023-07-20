@@ -59,7 +59,7 @@ nav{/*Estilo del menu del sitio*/
     align-items: center;
 }
 
-main{
+main{/*Estilo de la información más importante*/
     flex: 2;
     padding: 25px;
     background-color: tan ;
