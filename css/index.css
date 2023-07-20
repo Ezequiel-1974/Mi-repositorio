@@ -55,7 +55,7 @@ nav{/*Estilo del menu del sitio*/
     width: 23%;
     height: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
