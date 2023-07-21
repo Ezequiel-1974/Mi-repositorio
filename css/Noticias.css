@@ -24,9 +24,6 @@ nav{/*Estilo del menu del sitio*/
 
 main{/*Estilo de la información más importante*/
     background-color: tan ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .Banners{/*Estilo de los banners*/
