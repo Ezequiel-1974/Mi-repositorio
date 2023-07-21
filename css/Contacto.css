@@ -9,6 +9,10 @@ header{/*Estilo de Cabecera*/
     font-family: 'Ysabeau SC', sans-serif;
 }
 
+body{/*Estilo del cuerpo del sitio*/
+    background-color: bisque;
+}
+
 nav{/*Estilo del menu del sitio*/
     flex-wrap: wrap;
     padding: 2px;
@@ -29,11 +33,6 @@ main{/*Estilo de la información más importante*/
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-body{/*Estilo del cuerpo del sitio*/
-    background-color: bisque;
-    font-family: 'Dancing Script', cursive;
 }
 
 .Banners{/*Estilo de los banners*/
