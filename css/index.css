@@ -24,14 +24,12 @@ nav{/*Estilo del menu del sitio*/
 
 main{/*Estilo de la información más importante*/
     background-color: tan ;
-    width: 100px;
-    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 ul{
-    display: flex;
+    display: block;
 }
 
 table{/*Estilo de la tabla de la comisión directiva*/
