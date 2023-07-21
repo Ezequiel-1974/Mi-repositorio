@@ -31,6 +31,7 @@ table{/*Estilo de la tabla de la comisión directiva*/
     display: flex;
     background-color: burlywood;
     position: relative;
+    width: 500px;
 }
 
 .Banners{/*Estilo de los banners*/
