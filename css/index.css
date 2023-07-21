@@ -23,10 +23,7 @@ nav{/*Estilo del menu del sitio*/
 }
 
 main{/*Estilo de la información más importante*/
-    padding: 25px;
     background-color: tan ;
-    width: 23%;
-    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
