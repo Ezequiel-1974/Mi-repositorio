@@ -30,6 +30,9 @@ main{/*Estilo de la información más importante*/
     justify-content: center;
     align-items: center;
 }
+ul{
+    display: flex;
+}
 
 table{/*Estilo de la tabla de la comisión directiva*/
     display: flex;
