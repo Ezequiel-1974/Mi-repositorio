@@ -17,8 +17,6 @@ nav{/*Estilo del menu del sitio*/
     flex-wrap: wrap;
     padding: 2px;
     background-color: tan ;
-    width: 23%;
-    height: 50px;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -41,6 +39,7 @@ table{/*Estilo de la tabla de la comisión directiva*/
 }
 
 .Banners{/*Estilo de los banners*/
+    display: flex;
     flex: 1;
     min-width: 300px;
     width: 20%;

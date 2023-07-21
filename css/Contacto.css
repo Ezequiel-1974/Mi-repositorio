@@ -17,8 +17,6 @@ nav{/*Estilo del menu del sitio*/
     flex-wrap: wrap;
     padding: 2px;
     background-color: tan ;
-    width: 23%;
-    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,6 +34,7 @@ main{/*Estilo de la información más importante*/
 }
 
 .Banners{/*Estilo de los banners*/
+    display: flex;
     flex: 1;
     min-width: 300px;
     width: 20%;
