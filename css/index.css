@@ -15,7 +15,7 @@ body{/*Estilo del cuerpo del sitio*/
 
 nav{/*Estilo del menu del sitio*/
     flex-wrap: wrap;
-    padding: 25px;
+    padding: 2px;
     background-color: tan ;
     width: 23%;
     height: 50px;
@@ -36,7 +36,6 @@ main{/*Estilo de la información más importante*/
 
 table{/*Estilo de la tabla de la comisión directiva*/
     display: flex;
-    min-width: 300px;
     background-color: burlywood;
     position: relative;
 }
