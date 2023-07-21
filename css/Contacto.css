@@ -10,7 +10,7 @@ header{/*Estilo de Cabecera*/
 }
 
 nav{/*Estilo del menu del sitio*/
-    padding-left: 0%;
+    flex-wrap: wrap;
     padding: 2px;
     background-color: tan ;
     width: 23%;
