@@ -50,10 +50,12 @@ main{/*Estilo de la información más importante*/
 
 .contenedor2 {/*Animación y transformación del logo del sitio*/
     transition: transform 0.5s ease;
+    animation-duration: 2s;
   }
   
   .dropdown:hover ~ #contenedor .contenedor2 {
     transform: scale(1.2) rotate(5deg);
+    animation-duration: 2s;
   }
   
 
