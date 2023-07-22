@@ -39,7 +39,7 @@ main{/*Estilo de la información más importante*/
     width: 100%;
 }
 
-table{
+table{/*Estilo de la tabla*/
     display: flex;
     background-color: burlywood;
     position: relative;

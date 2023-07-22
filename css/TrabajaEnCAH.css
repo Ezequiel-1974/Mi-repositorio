@@ -42,7 +42,7 @@ main{/*Estilo de la información más importante*/
     background-color: tan ;
 }
 
-table{
+table{/*Estilo de la tabla*/
     display: flex;
     background-color: burlywood;
     position: relative;
