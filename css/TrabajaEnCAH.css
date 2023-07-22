@@ -40,6 +40,11 @@ label{
     box-shadow: 5px 5px 15px rgb(45, 45, 45);
 }
 
+span{
+    background-color: none;
+    border: none
+}
+
 input[type="text"] {
     background-color: wheat;
     border: solid black;
