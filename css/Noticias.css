@@ -55,7 +55,7 @@ main{/*Estilo de la información más importante*/
     padding: 10px;
     background-color: rgb(181, 91, 58);
     margin-bottom: 0px;
-    width: 100%;
+    width: 100px;
     height: 100px;
     display: flex;
     justify-content: center;
