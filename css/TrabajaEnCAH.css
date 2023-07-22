@@ -29,7 +29,6 @@ main{/*Estilo de la información más importante*/
 background-color: wheat;
 display: flex;
 width: 20%;
-height: 100px;
 justify-content: center;
 align-items: center;
 }
