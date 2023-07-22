@@ -38,7 +38,6 @@ main{/*Estilo de la información más importante*/
 
 .Banners img{/*Estilo de las imagenes de los Banners*/
     min-width: 150px;
-    margin-bottom: 0px;
     display: flex;
     width: 160px;
     height: 130px;
@@ -46,7 +45,13 @@ main{/*Estilo de la información más importante*/
     justify-content: initial;
     border-radius: 70%/60%;
     float: inline-start;
+    transition: transform 0.5s ease;
+    animation-duration: 2s;
 }
+.Banners img:hover {
+    transform: scale(1.2) rotate(5deg);
+    animation-duration: 2s;
+  }
 
 .contenedor2 {/*Animación y transformación del logo del sitio*/
     transition: transform 0.5s ease;
