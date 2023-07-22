@@ -58,6 +58,7 @@ main{/*Estilo de la información más importante*/
     height: 130px;
     background-color: black;
     justify-content: initial;
+    flex-direction: column;
     border-radius: 70%/60%;
     float: inline-start;
     transition: transform 0.5s ease;
