@@ -35,11 +35,6 @@ justify-content: center;
 align-items: center;
 }
 
-form{
-    border: solid black;
-    box-shadow: 5px 5px 15px rgb(45, 45, 45);
-}
-
 .Banners{/*Estilo de los banners*/
     display: flex;
     flex: 1;
