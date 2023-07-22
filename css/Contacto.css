@@ -49,6 +49,20 @@ main{/*Estilo de la información más importante*/
     float: inline-start;
 }
 
+.contenedor2:hover #Horneros {
+    animation: girar 2s linear infinite;
+  }
+  
+  @keyframes girar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+
 .contenedor2{/*Estilo del logo del sitio*/
     flex: 2;
     padding: 10px;
