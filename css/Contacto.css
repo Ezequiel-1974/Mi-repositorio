@@ -49,14 +49,14 @@ main{/*Estilo de la información más importante*/
     float: inline-start;
 }
 
-.contenedor2 {
+.contenedor2 {/*Animación y transformación del logo del sitio*/
     transition: transform 0.5s ease;
   }
   
-  .contenedor2:hover {
+  .dropdown:hover ~ #contenedor .contenedor2 {
     transform: scale(1.2) rotate(5deg);
   }
-  
+   
 
 .contenedor2{/*Estilo del logo del sitio*/
     flex: 2;
