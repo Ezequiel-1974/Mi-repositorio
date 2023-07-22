@@ -27,6 +27,11 @@ main{/*Estilo de la información más importante*/
 
 .Formulario1{/*Estilo del formulario*/
 background-color: wheat;
+display: flex;
+width: 20%;
+height: 100px;
+justify-content: center;
+align-items: center;
 }
 
 .Banners{/*Estilo de los banners*/
