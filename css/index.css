@@ -56,17 +56,12 @@ table{/*Estilo de la tabla de la comisión directiva*/
     float: inline-start;
 }
 
-.contenedor2:hover #Horneros {
-    animation: girar 2s linear infinite;
+.contenedor2 {
+    transition: transform 0.5s ease;
   }
   
-  @keyframes girar {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
+  .contenedor2:hover {
+    transform: scale(1.2) rotate(5deg);
   }
   
 
