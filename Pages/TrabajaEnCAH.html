@@ -22,22 +22,24 @@ http-equiv="Content-Security-Policy"
     <div class="contenedor2" id="contenedor2"><!--Div de logo del sitio-->
         <img src="../Fondos-de-pantalla/CAHornero.png" id="Horneros" >
     </div>
-    <nav>
-        <ul class="nav"> <!--Menu del sitio-->
-            <li class="nav-item">
-               <ul><a class="hover" href="../index.html">Inicio</a></ul>  
-            </li>
-            <li class="nav-item">
-                <ul><a class="hover" href="../Pages/Acerca-De.html">Acerca De</a></ul>
-            </li>
-            <li class="nav-item">
-                <ul><a class="hover" href="../Pages/Contacto.html">Contacto</a></ul>
-            </li>
-            <li class="nav-item">
-              <ul><a class="hover" href="../Pages/Noticias.html">Noticias</a></ul>
-          </li>
-          </ul>
-        </nav>  
+
+    <div class="dropdown"><!--Menu del sitio-->
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Menu
+      </button>
+
+      <nav>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="../index.html">Incio</a></li>
+        <li><a class="dropdown-item" href="../Pages/Acerca-De.html">Acerca de Nosotros</a></li>
+        <li><a class="dropdown-item" href="../Pages/Contacto.html">Contacto</a></li>
+        <li><a class="dropdown-item" href="../Pages/Noticias.html">Noticias</a></li>
+        <li><a class="dropdown-item" href="../Pages/TrabajaEnCAH.html">Trabaja En CAH</a></li>
+
+      </ul>
+      </nav>
+    </div>
+
     </header>    
 </div>
 </div>    
