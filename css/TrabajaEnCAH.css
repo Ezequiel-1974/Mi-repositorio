@@ -39,6 +39,10 @@ label{
     border: solid black;
 }
 
+input{
+    border: solid black;
+}
+
 .Banners{/*Estilo de los banners*/
     display: flex;
     flex: 1;
