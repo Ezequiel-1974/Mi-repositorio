@@ -41,8 +41,8 @@ label{
 }
 
 input[type="text"] {
-    background-color: #f2f2f2;
-    border: none;
+    background-color: wheat;
+    border: solid black;
     color: black;
     padding: 10px 20px;
     text-align: center;
