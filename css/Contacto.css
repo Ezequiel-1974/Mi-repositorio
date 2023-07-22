@@ -39,6 +39,13 @@ main{/*Estilo de la información más importante*/
     width: 100%;
 }
 
+table{
+    display: flex;
+    background-color: burlywood;
+    position: relative;
+    width: 50%;
+}
+
 .Banners{/*Estilo de los banners*/
     display: flex;
     flex: 1;

@@ -42,6 +42,13 @@ main{/*Estilo de la información más importante*/
     background-color: tan ;
 }
 
+table{
+    display: flex;
+    background-color: burlywood;
+    position: relative;
+    width: 50%;
+}
+
 .Formulario1{/*Estilo del formulario*/
 background-color: wheat;
 border: solid black;

@@ -42,6 +42,13 @@ main{/*Estilo de la información más importante*/
     transform: translate(-50%, -50%);
 }
 
+table{
+    display: flex;
+    background-color: burlywood;
+    position: relative;
+    width: 50%;
+}
+
 .Banners{/*Estilo de los banners*/
     display: flex;
     flex: 1;
