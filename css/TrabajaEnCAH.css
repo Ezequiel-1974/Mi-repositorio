@@ -27,6 +27,8 @@ main{/*Estilo de la información más importante*/
 
 .Formulario1{/*Estilo del formulario*/
 background-color: wheat;
+border: solid black;
+box-shadow: 5px 5px 15px rgb(45, 45, 45);
 display: flex;
 width: 20%;
 justify-content: center;
@@ -34,7 +36,8 @@ align-items: center;
 }
 
 form{
-    border-color: black;
+    border: solid black;
+    box-shadow: 5px 5px 15px rgb(45, 45, 45);
 }
 
 .Banners{/*Estilo de los banners*/
