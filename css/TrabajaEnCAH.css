@@ -37,6 +37,7 @@ align-items: center;
 
 label{
     border: solid black;
+    box-shadow: 5px 5px 15px rgb(45, 45, 45);
 }
 
 input{
