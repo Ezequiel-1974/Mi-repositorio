@@ -27,13 +27,10 @@ nav{/*Estilo del menu del sitio*/
 }
 
 main{/*Estilo de la información más importante*/
-    background-color: tan ;
-    display: contents;
     width: 80%;
-    position: absolute;
+    position: relative;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    background-color: tan ;
 }
 
 table{/*Estilo de la tabla*/
@@ -58,6 +55,7 @@ table{/*Estilo de la tabla de la comisión directiva*/
     justify-content: initial;
     transition: transform 0.5s ease;
     animation-duration: 2s;
+    flex-direction: column;
 }
 
 .Banners img{/*Estilo de las imagenes de los Banners*/

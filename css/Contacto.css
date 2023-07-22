@@ -27,9 +27,10 @@ nav{/*Estilo del menu del sitio*/
 }
 
 main{/*Estilo de la información más importante*/
+    width: 80%;
+    position: relative;
+    top: 50%;
     background-color: tan ;
-    display: contents;
-    width: 100%;
 }
 
 table{/*Estilo de la tabla*/
@@ -45,6 +46,7 @@ table{/*Estilo de la tabla*/
     width: 100%;
     height: 100px;
     justify-content: initial;
+    flex-direction: column;
 }
 
 .Banners img{/*Estilo de las imagenes de los Banners*/
