@@ -26,6 +26,11 @@ nav{/*Estilo del menu del sitio*/
     align-items: center;
 }
 
+button{
+    background-color: rgb(181, 91, 58);
+    border: solid black;
+}
+
 main{/*Estilo de la información más importante*/
     width: 80%;
     position: relative;
