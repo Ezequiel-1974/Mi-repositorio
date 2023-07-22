@@ -69,7 +69,7 @@ input{
 .contenedor2{/*Estilo del logo del sitio*/
     flex: 2;
     min-width: 300px;
-    padding: 25px;
+    padding: 10px;
     background-color: rgb(181, 91, 58);
     margin-bottom: 0px;
     width: 100px;
