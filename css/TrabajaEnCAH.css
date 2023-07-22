@@ -93,7 +93,7 @@ input[type="text"] {
     justify-content: center;
 }
 
-a:hover {
+a:hover {/*Estilos de los links*/
     color: rgb(0, 0, 0);
     text-decoration: underline;
   }
