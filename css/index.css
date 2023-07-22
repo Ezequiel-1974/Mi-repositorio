@@ -11,6 +11,7 @@ header{/*Estilo de Cabecera*/
 body{/*Estilo del cuerpo del sitio*/
     background-color: bisque;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -71,6 +72,7 @@ table{/*Estilo de la tabla de la comisión directiva*/
     float: inline-start;
     transition: transform 0.5s ease;
     animation-duration: 2s;
+    flex-direction: column;
 }
 .Banners img:hover {
     transform: scale(1.2) rotate(5deg);
