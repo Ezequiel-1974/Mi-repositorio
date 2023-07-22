@@ -86,11 +86,10 @@ input[type="text"] {
     animation-duration: 2s;
   }
   
-  .dropdown:hover ~ #contenedor .contenedor2 {
+  .contenedor2:hover {
     transform: scale(1.2) rotate(5deg);
     animation-duration: 2s;
-  }
-   
+  }   
 
 .contenedor2{/*Estilo del logo del sitio*/
     flex: 2;
