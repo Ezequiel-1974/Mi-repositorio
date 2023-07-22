@@ -13,6 +13,7 @@ body{/*Estilo del cuerpo del sitio*/
 }
 
 nav{/*Estilo del menu del sitio*/
+    width: 100%;
     flex-wrap: wrap;
     padding: 2px;
     background-color: tan ;
@@ -22,6 +23,7 @@ nav{/*Estilo del menu del sitio*/
 }
 
 main{/*Estilo de la información más importante*/
+    width: 100%;
     background-color: tan ;
 }
 
@@ -30,7 +32,7 @@ background-color: wheat;
 border: solid black;
 box-shadow: 5px 5px 15px rgb(45, 45, 45);
 display: flex;
-width: 50%;
+width: 100%;
 justify-content: center;
 align-items: center;
 }
@@ -61,8 +63,7 @@ input[type="text"] {
 .Banners{/*Estilo de los banners*/
     display: flex;
     flex: 1;
-    min-width: 300px;
-    width: 20%;
+    width: 100%;
     height: 100px;
     justify-content: initial;
     
@@ -86,9 +87,9 @@ input[type="text"] {
     padding: 10px;
     background-color: rgb(181, 91, 58);
     margin-bottom: 0px;
-    width: 100px;
+    width: 100%;
+    display: block;
     height: 100px;
-    display: flex;
     justify-content: center;
 }
 

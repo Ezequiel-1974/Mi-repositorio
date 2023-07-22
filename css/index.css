@@ -13,6 +13,7 @@ body{/*Estilo del cuerpo del sitio*/
 }
 
 nav{/*Estilo del menu del sitio*/
+    width: 100%;
     flex-wrap: wrap;
     padding: 2px;
     background-color: tan ;
@@ -24,20 +25,20 @@ nav{/*Estilo del menu del sitio*/
 main{/*Estilo de la información más importante*/
     background-color: tan ;
     display: contents;
+    width: 100%;
 }
 
 table{/*Estilo de la tabla de la comisión directiva*/
     display: flex;
     background-color: burlywood;
     position: relative;
-    width: 500px;
+    width: 100%;
 }
 
 .Banners{/*Estilo de los banners*/
     display: flex;
     flex: 1;
-    min-width: 300px;
-    width: 20%;
+    width: 100%;
     height: 100px;
     justify-content: initial;
     
@@ -57,13 +58,12 @@ table{/*Estilo de la tabla de la comisión directiva*/
 
 .contenedor2{/*Estilo del logo del sitio*/
     flex: 2;
-    min-width: 300px;
     padding: 10px;
     background-color: rgb(181, 91, 58);
     margin-bottom: 0px;
-    width: 100px;
+    width: 100%;
     height: 100px;
-    display: flex;
+    display: block;
     justify-content: center;
 }
 
