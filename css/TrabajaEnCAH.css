@@ -36,6 +36,7 @@ align-items: center;
 }
 
 label{
+    padding: 2px;
     border: solid black;
     box-shadow: 5px 5px 15px rgb(45, 45, 45);
 }
