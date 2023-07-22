@@ -24,6 +24,9 @@ nav{/*Estilo del menu del sitio*/
 main{/*Estilo de la información más importante*/
     background-color: tan ;
 }
+form{/*Estulo del formulario*/
+    background-color: darkkhaki;
+}
 
 .Banners{/*Estilo de los banners*/
     display: flex;
