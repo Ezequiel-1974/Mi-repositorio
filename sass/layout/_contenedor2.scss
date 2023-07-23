@@ -1,0 +1,19 @@
+.contenedor2 {/*Animación y transformación del logo del sitio*/
+    transition: transform 0.5s ease;
+    animation-duration: 2s;
+  }
+  
+  .contenedor2:hover {
+    transform: scale(1.2) rotate(5deg);
+    animation-duration: 2s;
+  }
+
+.contenedor2{/*Estilo del logo del sitio*/
+    flex: 2;
+    padding: 10px;
+    background-color: rgb(181, 91, 58);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}

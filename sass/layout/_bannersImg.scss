@@ -1,0 +1,18 @@
+.Banners img{/*Estilo de las imagenes de los Banners*/
+    min-width: 150px;
+    display: flex;
+    width: 160px;
+    height: 130px;
+    background-color: black;
+    justify-content: initial;
+    flex-direction: column;
+    border-radius: 70%/60%;
+    float: inline-start;
+    transition: transform 0.5s ease;
+    animation-duration: 2s;
+    flex-direction: column;
+}
+.Banners img:hover {
+    transform: scale(1.2) rotate(5deg);
+    animation-duration: 2s;
+  }
