@@ -1,0 +1,105 @@
+header{/*Estilo de Cabecera*/
+    width: 100%;
+    border: solid black;
+    box-shadow: 5px 5px 15px rgb(45, 45, 45);
+    background-color: rgb(181, 91, 58);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body{/*Estilo del cuerpo del sitio*/
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{/*Estilo del menu del sitio*/
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 2px;
+    background-color: tan ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: rgb(181, 91, 58);
+    border: solid black;
+}
+
+main{/*Estilo de la información más importante*/
+    width: 80%;
+    position: relative;
+    top: 50%;
+    background-color: tan ;
+}
+
+table{/*Estilo de la tabla*/
+    display: flex;
+    background-color: burlywood;
+    position: relative;
+    width: 80%;
+}
+
+.Banners{/*Estilo de los banners*/
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 100px;
+    justify-content: initial;
+    flex-direction: column;
+}
+
+.Banners img{/*Estilo de las imagenes de los Banners*/
+    min-width: 150px;
+    display: flex;
+    width: 160px;
+    height: 130px;
+    background-color: black;
+    justify-content: initial;
+    flex-direction: column;
+    border-radius: 70%/60%;
+    float: inline-start;
+    transition: transform 0.5s ease;
+    animation-duration: 2s;
+    flex-direction: column;
+}
+.Banners img:hover {
+    transform: scale(1.2) rotate(5deg);
+    animation-duration: 2s;
+  }
+
+.contenedor2 {/*Animación y transformación del logo del sitio*/
+    transition: transform 0.5s ease;
+    animation-duration: 2s;
+  }
+  
+  .contenedor2:hover {
+    transform: scale(1.2) rotate(5deg);
+    animation-duration: 2s;
+  }
+
+.contenedor2{/*Estilo del logo del sitio*/
+    flex: 2;
+    padding: 10px;
+    background-color: rgb(181, 91, 58);
+    margin-bottom: 0px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+a:hover {/*Estilos de los links*/
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+  }
+
+  a {
+    color: rgb(0, 17, 255);
+    text-decoration: none;
+  }
