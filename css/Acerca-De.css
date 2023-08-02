@@ -53,6 +53,15 @@ table{/*Estilo de la tabla*/
     flex-direction: column;
 }
 
+a{
+    display: flex;
+    flex: 1;
+    width: 40px;
+    height: 5px;
+    align-items: center;
+    flex-direction: column;
+  }
+
 .carousel-container {
     position: relative;
     overflow: hidden;
