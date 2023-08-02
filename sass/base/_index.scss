@@ -118,18 +118,6 @@ table{/*Estilo de la tabla de la comisión directiva*/
     }
   }
 
-  .Banners img{/*Estilo de las imagenes de los Banners*/
-    display: flex;
-    background-color: black;
-    flex-direction: column;
-    border-radius: 70%/60%;
-    float: inline-start;
-    transition: transform 0.5s ease;
-}
-.Banners img:hover {
-    transform: scale(1.2) rotate(5deg);
-  }
-
 .contenedor2 {/*Animación y transformación del logo del sitio*/
     transition: transform 0.5s ease;
     animation-duration: 2s;
