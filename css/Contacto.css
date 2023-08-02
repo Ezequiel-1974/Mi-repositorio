@@ -54,6 +54,24 @@ table{/*Estilo de la tabla*/
     flex-direction: column;
 }
 
+.image-container {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .image-container img:hover {
+    transform: scale(0.8); /* Hacemos más pequeña la imagen al 80% del tamaño original */
+  }
+
 .carousel-container {
     position: relative;
     overflow: hidden;
