@@ -58,7 +58,6 @@ a{ /*Estilo de los links*/
     display: flex;
     flex: 1;
     width: 40px;
-    height: 5px;
     align-items: center;
     flex-direction: column;
   }

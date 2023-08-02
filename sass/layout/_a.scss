@@ -1,3 +1,11 @@
+a{ /*Estilo de los links*/
+  display: flex;
+  flex: 1;
+  width: 40px;
+  align-items: center;
+  flex-direction: column;
+}
+
 a:hover {/*Estilos de los links*/
     color: rgb(0, 0, 0);
     text-decoration: underline;
