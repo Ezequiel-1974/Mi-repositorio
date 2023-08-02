@@ -66,11 +66,8 @@ table{/*Estilo de la tabla*/
 .Banners{/*Estilo de los banners*/
     display: flex;
     flex: 1;
-    min-width: 300px;
     width: 100%;
     height: 100px;
-    justify-content: initial;
-    flex-direction: column;
 }
 
 .carousel-container {
