@@ -3,14 +3,14 @@ header{/*Estilo de Cabecera*/
     margin-bottom: 10px;
     border: solid black;
     box-shadow: 5px 5px 15px rgb(45, 45, 45);
-    background-color: rgb(181, 91, 58);
+    background-image: linear-gradient(to right top, #5d1d07, #833921, #ab573a, #d47655, #ff9671);
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 body{/*Estilo del cuerpo del sitio*/
-    background-color: bisque;
+  background-image: linear-gradient(to right top, #5d1d07, #833921, #ab573a, #d47655, #ff9671);
     display: flex;
     flex-direction: column;
     justify-content: center;
