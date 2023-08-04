@@ -63,7 +63,7 @@ table {
     align-items: center;
 }
 
-form{
+form {
     padding: 10px;
 }
 
@@ -72,13 +72,12 @@ label {
     box-shadow: 5px 5px 15px rgb(45, 45, 45);
 }
 
-button{
+button {
     border: 0;
-    background-image: linear-gradient(
-    150deg,
-    #9500ff,
-    #09f,
-    #00DDFF,);
+    background-image: linear-gradient(150deg,
+            #9500ff,
+            #09f,
+            #00DDFF, );
     border-radius: 8px;
     color: #fff;
     display: flex;
@@ -88,18 +87,18 @@ button{
     transition: .3s;
 }
 
-button span{
+button span {
     background-color: #111;
     padding: 16px 24px;
     border-radius: 6px;
     transition: .3s;
 }
 
-button:hover span{
+button:hover span {
     background: none;
 }
 
-button:active{
+button:active {
     transform: scale(0.9);
 }
 
