@@ -1,4 +1,5 @@
-header{/*Estilo de Cabecera*/
+header {
+    /*Estilo de Cabecera*/
     width: 100%;
     border: solid black;
     box-shadow: 5px 5px 15px rgb(45, 45, 45);
@@ -8,7 +9,8 @@ header{/*Estilo de Cabecera*/
     justify-content: space-between;
 }
 
-body{/*Estilo del cuerpo del sitio*/
+body {
+    /*Estilo del cuerpo del sitio*/
     background: linear-gradient(to right, #4286f4, #303f61);
     display: flex;
     flex-direction: column;
@@ -19,22 +21,24 @@ body{/*Estilo del cuerpo del sitio*/
         width: 400px;
         height: 300px;
         overflow: hidden;
-    
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          cursor: pointer;
-          transition: transform 0.2s ease-in-out;
-    
-          &:hover {
-            transform: scale(0.8); /* Hacemos más pequeña la imagen al 80% del tamaño original */
-          }
-        }
-      }
-    }
 
-nav{/*Estilo del menu del sitio*/
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+
+            &:hover {
+                transform: scale(0.8);
+                /* Hacemos más pequeña la imagen al 80% del tamaño original */
+            }
+        }
+    }
+}
+
+nav {
+    /*Estilo del menu del sitio*/
     width: 100%;
     flex-wrap: wrap;
     padding: 2px;
@@ -43,41 +47,44 @@ nav{/*Estilo del menu del sitio*/
     align-items: center;
 }
 
-.btn-secondary{
+.btn-secondary {
     background-color: #507da5 !important;
 }
 
-button{
+button {
     border: solid black;
 }
 
-main{/*Estilo de la información más importante*/
+main {
+    /*Estilo de la información más importante*/
     width: 95%;
     position: relative;
     top: 50%;
 }
 
-table{/*Estilo de la tabla*/
+table {
+    /*Estilo de la tabla*/
     display: flex;
     position: relative;
     width: 80%;
 }
 
-.Formulario1{/*Estilo del formulario*/
-border: solid black;
-box-shadow: 5px 5px 15px rgb(45, 45, 45);
-display: flex;
-width: 100%;
-justify-content: center;
-align-items: center;
+.Formulario1 {
+    /*Estilo del formulario*/
+    border: solid black;
+    box-shadow: 5px 5px 15px rgb(45, 45, 45);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
-label{
+label {
     border: solid black;
     box-shadow: 5px 5px 15px rgb(45, 45, 45);
 }
 
-span{
+span {
     background-color: none !important;
     border: none
 }
@@ -92,26 +99,30 @@ input[type="text"] {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-  }
+}
 
-.Banners{/*Estilo de los banners*/
+.Banners {
+    /*Estilo de los banners*/
     display: flex;
     flex: 1;
+    padding-top: 10px;
     width: 100%;
     height: 100px;
     align-items: center;
     flex-direction: column;
 }
 
-a{ /*Estilo de los links*/
+a {
+    /*Estilo de los links*/
     display: flex;
     flex: 1;
     width: 40px;
     align-items: center;
     flex-direction: column;
-  }
+}
 
-.carousel-container { /*Estilo del carrusel*/
+.carousel-container {
+    /*Estilo del carrusel*/
     position: relative;
     overflow: hidden;
     width: 500px;
@@ -120,7 +131,8 @@ a{ /*Estilo de los links*/
     margin-bottom: 20px;
 }
 
-.carousel-slide { /*Estilo del movimiento del carrusel*/
+.carousel-slide {
+    /*Estilo del movimiento del carrusel*/
     display: flex;
     transition: transform 0.3s ease-in-out;
     animation: carouselAnimation 6s infinite;
@@ -138,32 +150,41 @@ a{ /*Estilo de los links*/
 }
 
 @keyframes carouselAnimation {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateX(0);
     }
-    16.666%, 33.333% {
+
+    16.666%,
+    33.333% {
         transform: translateX(-100%);
     }
-    50%, 66.666% {
+
+    50%,
+    66.666% {
         transform: translateX(-200%);
     }
+
     83.333% {
         transform: translateX(-300%);
     }
 }
 
 
-.contenedor2 {/*Animación y transformación del logo del sitio*/
+.contenedor2 {
+    /*Animación y transformación del logo del sitio*/
     transition: transform 0.5s ease;
     animation-duration: 2s;
-  }
-  
-  .contenedor2:hover {
+}
+
+.contenedor2:hover {
     transform: scale(1.2) rotate(5deg);
     animation-duration: 2s;
-  }   
+}
 
-.contenedor2{/*Estilo del logo del sitio*/
+.contenedor2 {
+    /*Estilo del logo del sitio*/
     flex: 2;
     margin: 15px;
     padding: 10px;
@@ -174,12 +195,13 @@ a{ /*Estilo de los links*/
     justify-content: center;
 }
 
-a:hover {/*Estilos de los links*/
+a:hover {
+    /*Estilos de los links*/
     color: rgb(0, 0, 0);
     text-decoration: underline;
-  }
+}
 
-  a {
+a {
     background-color: rgb(13 110 253 / 52%) !important;
     text-decoration: none;
-  }
+}
