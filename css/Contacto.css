@@ -9,12 +9,10 @@ header {
     justify-content: space-between;
 }
 
-button {
+.mi-clase-personalizada {
+    /*Estilo de los botones*/
     border: 0;
-    background-image: linear-gradient(150deg,
-            #9500ff,
-            #09f,
-            #00DDFF, );
+    background-image: linear-gradient(150deg, #9500ff, #09f, #00DDFF);
     border-radius: 8px;
     color: #fff;
     display: flex;
