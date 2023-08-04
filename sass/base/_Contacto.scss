@@ -81,16 +81,18 @@ nav {
     background-color: #507da5 !important;
 }
 
-.div.Información { 
+.mb-3 {
+    width: 50%;
+}
+
+.Información {
     /*Estilo del div de la información de contacto*/
-    width: 25%;
     margin-top: 20px;
     margin-left: 10px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
-
 main {
     /*Estilo de la información más importante*/
     width: 95%;
