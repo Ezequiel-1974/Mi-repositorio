@@ -71,6 +71,15 @@ main {
     top: 50%;
 }
 
+.información {
+    width: 25%;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+}
+
 table {
     /*Estilo de la tabla*/
     display: flex;
