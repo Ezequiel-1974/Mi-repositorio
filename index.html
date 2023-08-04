@@ -1,132 +1,135 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Descripción de mi sitio web">
-    <meta name="keywords"content="Horneros, Club, Atletico, Deporte, Futbol">
+    <meta name="keywords" content="Horneros, Club, Atletico, Deporte, Futbol">
     <link rel="icon" href="./Fondos-de-pantalla/NuevoLogoHorneros.jpg">
 
     <title>Club Atletico Horneros</title>
-    <meta
-http-equiv="Content-Security-Policy"
-  content="default-src 'self'; img-src https://*; child-src 'none';" />
-        <link rel="stylesheet" href="./Bootstrap/css/bootstrap.min.css">
-            <link rel="stylesheet" href="./sass/base/_index.scss">
-                <link rel="stylesheet" href="./css/index.css">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://*; child-src 'none';" />
+    <link rel="stylesheet" href="./Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./sass/base/_index.scss">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
+
 <body>
 
-<div class="sombra" id="contenedor">
-    <div class="d-inline-flex p-2" id="contenedor"> <!--Cabeza de Sitio-->
-        
-        <header>
-         <h1>Club Atletico Horneros</h1>
-    
-    <div class="contenedor2" id="contenedor2"><!--Div de logo del sitio-->
-        <img src="./Fondos-de-pantalla/NuevoLogoHorneros.jpg" id="Horneros" >
+    <div class="sombra" id="contenedor">
+        <div class="d-inline-flex p-2" id="contenedor"> <!--Cabeza de Sitio-->
+
+            <header>
+                <h1>Club Atletico Horneros</h1>
+
+                <div class="contenedor2" id="contenedor2"><!--Div de logo del sitio-->
+                    <img src="./Fondos-de-pantalla/NuevoLogoHorneros.jpg" id="Horneros">
+                </div>
+
+                <div class="dropdown"><!--Menu del sitio-->
+
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Menu
+                    </button>
+
+                    <nav>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./index.html">Incio</a></li>
+
+                            <li><a class="dropdown-item" href="./Pages/Acerca-De.html">Acerca de Nosotros</a></li>
+
+                            <li><a class="dropdown-item" href="./Pages/Contacto.html">Contacto</a></li>
+
+                            <li><a class="dropdown-item" href="./Pages/Noticias.html">Noticias</a></li>
+
+                            <li><a class="dropdown-item" href="./Pages/TrabajaEnCAH.html">Trabaja En CAH</a></li>
+
+                        </ul>
+                    </nav>
+                </div>
+
+            </header>
+        </div>
     </div>
-
-    <div class="dropdown"><!--Menu del sitio-->
-
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Menu
-        </button>
-
-        <nav>
-
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="./index.html">Incio</a></li>
-
-          <li><a class="dropdown-item" href="./Pages/Acerca-De.html">Acerca de Nosotros</a></li>
-
-          <li><a class="dropdown-item" href="./Pages/Contacto.html">Contacto</a></li>
-
-          <li><a class="dropdown-item" href="./Pages/Noticias.html">Noticias</a></li>
-
-          <li><a class="dropdown-item" href="./Pages/TrabajaEnCAH.html">Trabaja En CAH</a></li>
-
-        </ul>
-        </nav>
-      </div>
-
-        </header>    
-    </div>
-</div>
 
     <main>
         <h2>Comisión directiva</h2> <!--Tabla de comisión directiva-->
 
         <ul>
             <li>Rodolfo Gutierrez</li>
-                <ul>Presidente</ul>
+            <ul>Presidente</ul>
             <li>Josefina Rodriguez</li>
-                <ul>Vicepresindente</ul>
+            <ul>Vicepresindente</ul>
             <li>Pantaleon Bustamante</li>
-                <ul>Tesorero</ul>
+            <ul>Tesorero</ul>
             <li>Maria Camila Gomez</li>
-                <ul>Secretaria</ul>
+            <ul>Secretaria</ul>
             <li>Stefania Esposito</li>
-                <ul>Vocera</ul>
+            <ul>Vocera</ul>
             <li>Roberto Navarro</li>
-                <ul>Coodinador general de Deportes</ul>
+            <ul>Coodinador general de Deportes</ul>
         </ul>
 
+        <hr>
+
         <h2>Los deportes que se practican en el club</h2><!--Tabla de deportes-->
-    
+
         <table border="1" cellpadding="10">
-        <tr> 
-            <th>Profesores:
-            Nombre Apellido</th> 
-            <th>Deportes</th>
-            <th>Días</th>
-            <th>Horarios</th>
-        </tr>
+            <tr>
+                <th>Profesores:
+                    Nombre Apellido</th>
+                <th>Deportes</th>
+                <th>Días</th>
+                <th>Horarios</th>
+            </tr>
 
-        <tr>
-            <td>Antonio Centurion</td>
-            <td>Taekwondo</td>
-            <td>Lunes, miercoles y viernes</td>
-            <td>10:00 a 12:00</td>
-        </tr>
+            <tr>
+                <td>Antonio Centurion</td>
+                <td>Taekwondo</td>
+                <td>Lunes, miercoles y viernes</td>
+                <td>10:00 a 12:00</td>
+            </tr>
 
-        <tr>
-            <td>Josefina Martinez</td>
-            <td>Voley</td>
-            <td>Martes, jueves y viernes</td>
-            <td>10:00 a 12:00</td>
-        </tr>
+            <tr>
+                <td>Josefina Martinez</td>
+                <td>Voley</td>
+                <td>Martes, jueves y viernes</td>
+                <td>10:00 a 12:00</td>
+            </tr>
 
-        <tr>
-            <td>Alex Lopez</td>
-            <td>Futbol</td>
-            <td>Lunes, miercoles y viernes</td>
-            <td>10:00 a 12:00</td>
-        </tr>
+            <tr>
+                <td>Alex Lopez</td>
+                <td>Futbol</td>
+                <td>Lunes, miercoles y viernes</td>
+                <td>10:00 a 12:00</td>
+            </tr>
 
-        <tr>
-            <td>Maria Camila Esposito</td>
-            <td>Natación</td> 
-            <td>Lunes, martes y viernes</td>
-            <td>10:00 a 12:00</td>
-        </tr>
+            <tr>
+                <td>Maria Camila Esposito</td>
+                <td>Natación</td>
+                <td>Lunes, martes y viernes</td>
+                <td>10:00 a 12:00</td>
+            </tr>
 
         </table>
-</main>    
-    
+    </main>
 
-<div class="Banners" id="Banners"><!--Div de Banners-->
-    <h3>Sponsors del Club</h3>
 
-    <h4>Sitios oficiales de nuestros Sponsors </h4>
-    
-    <a class="dropdown-item" href="https://www.bet365.com/#/HO/">Bet365</a>
+    <div class="Banners" id="Banners"><!--Div de Banners-->
+        <h3>Sponsors del Club</h3>
+
+        <h4>Sitios oficiales de nuestros Sponsors </h4>
+
+        <a class="dropdown-item" href="https://www.bet365.com/#/HO/">Bet365</a>
         <a class="dropdown-item" href="https://www.bmros.com.ar/personas">Banco Municipal</a>
-            <a class="dropdown-item" href="https://www.adidas.com.ar/">Adidas</a>
-                <a class="dropdown-item" href="https://www.bridgestone.com.ar/">Bridgestone</a>
+        <a class="dropdown-item" href="https://www.adidas.com.ar/">Adidas</a>
+        <a class="dropdown-item" href="https://www.bridgestone.com.ar/">Bridgestone</a>
 
-</div>
+    </div>
 
     <!--Añadir logos con enlaces hacia las páginas web de Bet365, Banco Municipal, Adidas y Bridgestone -->
 
@@ -135,20 +138,21 @@ http-equiv="Content-Security-Policy"
 
             <img src="./Fondos-de-pantalla/BET_365.jpg" class="img-fluid" alt="Bet365">
 
-                <img src="./Fondos-de-pantalla/BancoMunicipal.jpeg" class="img-fluid" alt="BancoMunicipal">
+            <img src="./Fondos-de-pantalla/BancoMunicipal.jpeg" class="img-fluid" alt="BancoMunicipal">
 
-                    <img src="./Fondos-de-pantalla/Adidas.png" class="img-fluid" alt="Adidas">
+            <img src="./Fondos-de-pantalla/Adidas.png" class="img-fluid" alt="Adidas">
 
-                        <img src="./Fondos-de-pantalla/Bridgestone.jpg" class="img-fluid" alt="Bridgestone">
+            <img src="./Fondos-de-pantalla/Bridgestone.jpg" class="img-fluid" alt="Bridgestone">
 
         </div>
     </div>
 
-<footer><!--Pie de página-->
-    &copy; Todos los derechos reservados | Desarrollado por Ezequiel A. Guridi
-</footer>
+    <footer><!--Pie de página-->
+        &copy; Todos los derechos reservados | Desarrollado por Ezequiel A. Guridi
+    </footer>
 
-<script src="./Bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="./Bootstrap/js/bootstrap.bundle.js"></script>
 
 </body>
+
 </html>
