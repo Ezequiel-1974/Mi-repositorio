@@ -12,7 +12,7 @@ header {
 button {
     /*Estilo de los botones*/
     border: 0;
-    background-image: linear-gradient !important(150deg,
+    background-image: linear-gradient(150deg,
             #9500ff,
             #09f,
             #00DDFF, );
