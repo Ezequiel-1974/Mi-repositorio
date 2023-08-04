@@ -57,9 +57,14 @@ table {
     border: solid black;
     box-shadow: 5px 5px 15px rgb(45, 45, 45);
     display: flex;
+    margin-top: 20px;
     width: 100%;
     justify-content: center;
     align-items: center;
+}
+
+form{
+    padding: 10px;
 }
 
 label {
