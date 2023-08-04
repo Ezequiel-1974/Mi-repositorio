@@ -58,6 +58,7 @@ table {
 table {
   /*Estilo de la tabla de la comisión directiva*/
   display: flex;
+  border: none;
   margin-bottom: 10px;
   position: relative;
   width: 100%;
